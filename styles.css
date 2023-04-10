@@ -100,11 +100,12 @@ td {
     margin: 20px auto;
     border: outset 1px limegreen;
     color: hotpink;
-    padding: 2px;
+    padding: 10px 10px;
+    padding-right: 10px;
 }
 
 td {
-    padding: 3px 10px;
+    padding: 10px 10px !important;
 }
 
 a {
@@ -117,4 +118,25 @@ a {
     left: 0;
     right: 0;
     height: 85px;
+}
+
+/* Media queries for mobile responsiveness */
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        height: 80%;
+    }
+
+    .center {
+        top: 15px;
+    }
+
+    img {
+        width: 50%;
+    }
+
+    table,
+    td {
+        font-size: 14px;
+    }
 }
