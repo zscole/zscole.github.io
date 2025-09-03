@@ -743,6 +743,7 @@ body::before {
         padding: 15px;
         height: 100%;
         overflow-y: auto;
+        line-height: 1.4;
     }
     
     .ascii-art {
@@ -774,35 +775,35 @@ body::before {
     
     .terminal-table tbody tr {
         display: flex;
-        flex-direction: column;
-        margin-bottom: 10px;
-        padding: 10px;
-        border: 1px solid var(--phosphor-green);
+        align-items: center;
+        margin-bottom: 5px;
+        padding: 5px 0;
     }
     
     .terminal-table tbody td {
-        padding: 5px;
-        width: 100%;
+        padding: 2px 5px;
     }
     
     .terminal-table tbody td.table-label {
         font-weight: bold;
-        margin-bottom: 5px;
+        min-width: 80px;
+        text-align: left;
     }
     
     .bio-content {
         margin-left: 0;
         font-size: 0.9rem;
+        line-height: 1.4;
     }
     
     .section-header {
         font-size: 1rem;
-        margin: 20px 0 10px 0;
+        margin: 15px 0 8px 0;
     }
     
     .section-content {
         font-size: 0.85rem;
-        line-height: 1.6;
+        line-height: 1.4;
     }
     
     .terminal-prompt {
@@ -908,6 +909,7 @@ body::before {
     
     .bio-content {
         font-size: 0.85rem;
+        line-height: 1.3;
     }
     
     .section-header {
@@ -915,12 +917,13 @@ body::before {
         text-align: center;
         background: rgba(65, 255, 0, 0.1);
         padding: 8px;
-        margin: 15px -10px 10px -10px;
+        margin: 12px -10px 8px -10px;
     }
     
     .section-content {
         font-size: 0.8rem;
         padding: 0 5px;
+        line-height: 1.3;
     }
     
     /* Improve link touch targets on mobile only */
