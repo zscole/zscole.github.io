@@ -713,41 +713,98 @@ body::before {
 }
 
 /* Responsive design */
+/* Tablet styles */
 @media screen and (max-width: 768px) {
     .container {
-        width: 95vw;
-        height: 90vh;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: none;
+        border-radius: 0;
     }
     
-    .center {
-        top: 50%;
-        transform: translate(-50%, -50%);
+    .browser-frame {
+        padding: 80px 15px 20px 15px;
+        height: 100vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .browser-frame::before {
+        border-image-width: 80px 15px 20px 15px;
     }
     
     .terminal-screen {
-        padding: 20px;
+        padding: 15px;
+        height: 100%;
+        overflow-y: auto;
     }
     
     .ascii-art {
-        font-size: 0.4rem;
+        font-size: 0.35rem;
+        line-height: 1.2;
+        overflow-x: auto;
+        white-space: pre;
     }
     
     .terminal-status {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         gap: 10px;
-        text-align: center;
+        font-size: 0.8rem;
+        justify-content: center;
     }
     
     .terminal-table {
         font-size: 0.85rem;
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+    
+    .terminal-table tbody {
+        display: block;
+        width: 100%;
+    }
+    
+    .terminal-table tbody tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid var(--phosphor-green);
     }
     
     .terminal-table tbody td {
-        padding: 8px 12px;
+        padding: 5px;
+        width: 100%;
+    }
+    
+    .terminal-table tbody td.table-label {
+        font-weight: bold;
+        margin-bottom: 5px;
     }
     
     .bio-content {
-        margin-left: 10px;
+        margin-left: 0;
+        font-size: 0.9rem;
+    }
+    
+    .section-header {
+        font-size: 1rem;
+        margin: 20px 0 10px 0;
+    }
+    
+    .section-content {
+        font-size: 0.85rem;
+        line-height: 1.6;
+    }
+    
+    .terminal-prompt {
+        font-size: 0.85rem;
+        margin: 15px 0;
     }
     
     .press-grid {
@@ -756,9 +813,9 @@ body::before {
     }
     
     .headshot {
-        width: 150px;
-        height: 150px;
-        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 20px;
         display: block;
     }
     
@@ -766,15 +823,54 @@ body::before {
         width: 100%;
         text-align: center;
     }
+    
+    .press-content {
+        padding: 0;
+    }
+    
+    .media-table {
+        font-size: 0.8rem;
+    }
+    
+    .media-table tbody td {
+        padding: 10px 5px;
+        display: block;
+    }
+    
+    .media-table tbody tr {
+        display: block;
+        margin-bottom: 15px;
+        border-bottom: 1px solid var(--phosphor-green);
+        padding-bottom: 15px;
+    }
+    
+    /* Terminal input improvements */
+    .terminal-input {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    
+    /* Loading screen adjustments */
+    .loading-ascii {
+        font-size: 0.3rem;
+    }
+    
+    .loading-text {
+        font-size: 0.9rem;
+    }
 }
 
+/* Mobile phone styles */
 @media screen and (max-width: 480px) {
     .browser-frame {
-        padding: 100px 0 40px 0;
+        padding: 60px 10px 15px 10px;
     }
     
     .browser-frame::before {
-        border-image-width: 100px 40px 40px 300px;
+        border-image-width: 60px 10px 15px 10px;
+        border-image-source: none;
+        border: 2px solid var(--phosphor-green);
+        border-radius: 10px;
     }
     
     .ascii-art {
@@ -782,7 +878,137 @@ body::before {
     }
     
     .terminal-header {
+        margin-bottom: 15px;
+    }
+    
+    .terminal-status {
+        display: none;
+    }
+    
+    /* Show simplified mobile header */
+    .terminal-header::after {
+        content: "ZAK COLE";
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--phosphor-green);
+        text-shadow: 0 0 10px rgba(65, 255, 0, 0.5);
+        margin-bottom: 10px;
+    }
+    
+    .bio-content {
+        font-size: 0.85rem;
+    }
+    
+    .section-header {
+        font-size: 0.95rem;
+        text-align: center;
+        background: rgba(65, 255, 0, 0.1);
+        padding: 8px;
+        margin: 15px -10px 10px -10px;
+    }
+    
+    .section-content {
+        font-size: 0.8rem;
+        padding: 0 5px;
+    }
+    
+    /* Improve link touch targets on mobile only */
+    .terminal-link {
+        padding: 4px 6px;
+        min-height: 36px;
+        line-height: 1.6;
+    }
+    
+    @supports (-webkit-touch-callout: none) {
+        /* iOS specific touch target improvements */
+        .terminal-link {
+            min-height: 44px;
+        }
+    }
+    
+    /* Hide desktop-only elements */
+    .scan-line,
+    .terminal-flicker {
+        display: none;
+    }
+    
+    /* Improve terminal command interface */
+    .terminal-section {
+        margin-top: 30px;
+    }
+    
+    .command-input {
+        font-size: 0.85rem;
+    }
+    
+    .command-output {
+        font-size: 0.8rem;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+    
+    /* Footer adjustments */
+    .terminal-footer {
+        font-size: 0.75rem;
+        padding: 15px 5px;
+        text-align: center;
+    }
+    
+    /* Media table mobile optimization */
+    .media-table thead {
+        display: none;
+    }
+    
+    .media-table tbody td:first-child {
+        font-weight: bold;
+        color: var(--phosphor-amber);
+        margin-bottom: 5px;
+    }
+    
+    /* Press section mobile */
+    .press-bios {
+        margin-top: 20px;
+    }
+    
+    .bio-short, .bio-long {
         margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid var(--phosphor-green);
+    }
+    
+    /* Speaking topics list */
+    .press-content ul {
+        padding-left: 20px;
+    }
+    
+    .press-content li {
+        margin-bottom: 8px;
+        font-size: 0.8rem;
+    }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 360px) {
+    .terminal-header::after {
+        font-size: 1.2rem;
+    }
+    
+    .section-header {
+        font-size: 0.85rem;
+    }
+    
+    .section-content {
+        font-size: 0.75rem;
+    }
+    
+    .bio-content {
+        font-size: 0.8rem;
+    }
+    
+    .terminal-link {
+        font-size: 0.8rem;
     }
 }
 
