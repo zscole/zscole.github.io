@@ -809,16 +809,7 @@ body::before {
         overflow-wrap: normal;
     }
     
-    .section-content br {
-        display: block;
-        content: "";
-        margin-top: 0.5em;
-    }
-    
-    .section-content span {
-        display: inline-block;
-        white-space: nowrap;
-    }
+
     
     .terminal-prompt {
         font-size: 0.85rem;
@@ -946,27 +937,21 @@ body::before {
         overflow-wrap: normal;
     }
     
-    /* Prevent random line breaks in JUST SHIPPED */
+    /* Prevent random line breaks but allow normal flow */
     .section-content .highlight {
-        white-space: nowrap;
+        display: inline;
     }
     
     .section-content a {
-        white-space: nowrap;
+        display: inline;
     }
     
-    /* Improve link touch targets on mobile only */
+    /* Reset link styles on mobile to prevent formatting issues */
     .terminal-link {
-        padding: 4px 6px;
-        min-height: 36px;
-        line-height: 1.6;
-    }
-    
-    @supports (-webkit-touch-callout: none) {
-        /* iOS specific touch target improvements */
-        .terminal-link {
-            min-height: 44px;
-        }
+        padding: 0 2px;
+        min-height: auto;
+        line-height: inherit;
+        display: inline;
     }
     
     /* Hide desktop-only elements */
