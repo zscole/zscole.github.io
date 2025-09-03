@@ -16,6 +16,8 @@ I'm Zak Cole. I develop infrastructure for Ethereum and build venture-scale comp
 
 ### Just Shipped
 
+- **[SafeTools](https://www.safetools.io)** - EIP-712 message signing for Gnosis Safe
+  - Prove Safe ownership with EIP-1271 verification
 - **[Blobkit](https://blobkit.org)** - TypeScript SDK for Ethereum blob transactions
   - [GitHub](https://github.com/ETHCF/blobkit) | 10-100x cheaper than calldata
 - **[$BETH](https://etherscan.io/token/0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9)** - Immutable ERC-20 representing provably burned ETH

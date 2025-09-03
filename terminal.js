@@ -182,6 +182,7 @@
   10k           - ETH price target status
   blobkit       - Ethereum blob SDK information
   beth          - $BETH token information
+  safetools     - Gnosis Safe signing tools
   exits         - View successful exits
   exit          - Close terminal`;
             },
@@ -409,6 +410,31 @@ LINKS:
 > Etherscan: https://etherscan.io/token/0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9
 
 Built by Zak Cole @ Number Group for ECF`;
+            },
+            
+            safetools: () => {
+                return `╔══════════════════════════════════════════════════════╗
+║           SAFETOOLS - GNOSIS SAFE SIGNING           ║
+╚══════════════════════════════════════════════════════╝
+
+EIP-712 message signing for Gnosis Safe
+Prove ownership with EIP-1271 verification
+
+FEATURES:
+• Domain-separated message hashing
+• Onchain message storage via SignMessageLib
+• Multi-signature support (respects Safe threshold)
+• Cryptographic proof of Safe ownership
+• CLI tools: npm install -g safe-message-tools
+
+HOW TO USE:
+1. Go to app.safe.global
+2. Open Apps tab in your Safe
+3. Click "Add Custom App"
+4. Paste: https://www.safetools.io
+
+Built by Zak Cole at Number Group
+Website: https://www.safetools.io`;
             },
             
             exits: () => {

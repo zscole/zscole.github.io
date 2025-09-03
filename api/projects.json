@@ -3,6 +3,27 @@
   "last_updated": "2024-12",
   "projects": [
     {
+      "name": "SafeTools",
+      "status": "active",
+      "category": "dapp",
+      "description": "EIP-712 message signing and EIP-1271 verification for Gnosis Safe - enables cryptographic proof of Safe ownership",
+      "technical_details": {
+        "standards": ["EIP-712", "EIP-1271"],
+        "contract": "SignMessageLib",
+        "features": [
+          "Domain-separated message hashing",
+          "Onchain message storage",
+          "Multi-signature support",
+          "Safe threshold compliance",
+          "CLI tools available"
+        ],
+        "npm_package": "safe-message-tools"
+      },
+      "links": {
+        "website": "https://www.safetools.io"
+      }
+    },
+    {
       "name": "$BETH",
       "status": "active",
       "category": "token",

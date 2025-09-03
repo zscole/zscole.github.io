@@ -35,11 +35,12 @@ ENS: zak.eth
 - Blob transactions
 
 ## Key Projects
-1. $BETH: Immutable ERC-20 token representing provably burned ETH
-2. Blobkit: TypeScript SDK for leveraging Ethereum blob space for arbitrary data storage
-3. EIP-6968: Contract Secured Revenue standard for sustainable protocol funding
-4. Code4rena: Competitive audit platform that secured $100M+ in bug bounties
-5. Whiteblock: Blockchain testing platform that proved EOS wasn't a blockchain
+1. SafeTools: EIP-712 message signing for Gnosis Safe with EIP-1271 verification
+2. $BETH: Immutable ERC-20 token representing provably burned ETH
+3. Blobkit: TypeScript SDK for leveraging Ethereum blob space for arbitrary data storage
+4. EIP-6968: Contract Secured Revenue standard for sustainable protocol funding
+5. Code4rena: Competitive audit platform that secured $100M+ in bug bounties
+6. Whiteblock: Blockchain testing platform that proved EOS wasn't a blockchain
 
 ## Media & Speaking
 - Featured in Cointelegraph documentary "Ethereum in Crisis"

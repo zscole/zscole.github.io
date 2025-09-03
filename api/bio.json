@@ -39,6 +39,12 @@
   ],
   "achievements": [
     {
+      "title": "SafeTools Creator",
+      "description": "Built EIP-712 message signing for Gnosis Safe with EIP-1271 verification",
+      "url": "https://www.safetools.io",
+      "type": "dapp"
+    },
+    {
       "title": "EIP-6968 Author",
       "description": "Authored Contract Secured Revenue standard for Ethereum",
       "url": "https://eips.ethereum.org/EIPS/eip-6968",
