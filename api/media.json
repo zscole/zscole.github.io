@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-12",
+  "media_appearances": {
+    "documentaries": [
+      {
+        "title": "Ethereum in Crisis: Price, Politics, and the Fight for Power",
+        "publisher": "Cointelegraph",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=20zFEDQdKl8",
+        "type": "documentary",
+        "role": "Featured Expert"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Governance and Community Building",
+        "host": "Austin Griffith",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=bhA-ezQO_wI"
+      },
+      {
+        "title": "Funding Public Goods",
+        "host": "Green Pill",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=zS4-zOfoKAE"
+      },
+      {
+        "title": "Web3 Policy and Regulation",
+        "host": "Pretty Good Policy for Crypto",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=eRdkYgdbyIM"
+      },
+      {
+        "title": "Building in Web3",
+        "host": "LinkTime",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=SMYUAw1ps6o"
+      },
+      {
+        "title": "Engineering in Web3",
+        "host": "Software Engineering with Scott Moore",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=WRJHRkReGf4"
+      },
+      {
+        "title": "Smart Contract Development",
+        "host": "Austin Griffith",
+        "date": "2023",
+        "url": "https://www.youtube.com/watch?v=MRvfdiX1KBI"
+      }
+    ],
+    "conferences": [
+      {
+        "title": "The Decentralized Future of Ethereum",
+        "event": "Ethereum Community Conference",
+        "date": "2024",
+        "url": "https://www.youtube.com/live/wRgvt5afm54"
+      },
+      {
+        "title": "The Future of DeFi",
+        "event": "ETHDenver",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=u_S79X7F1Cs",
+        "format": "Panel Discussion"
+      },
+      {
+        "title": "Building Better Infrastructure",
+        "event": "ETHDenver",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=02ivZ4PpyWo"
+      },
+      {
+        "title": "Ethereum Protocol Development",
+        "event": "Ethereum Foundation",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=Au1Qll-86v0"
+      },
+      {
+        "title": "Blockchain Security Research",
+        "event": "51percent Crypto Research",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=RTfdTqb3IDw"
+      },
+      {
+        "title": "Blockchain Testing and Security",
+        "event": "Whiteblock",
+        "date": "2023",
+        "url": "https://www.youtube.com/watch?v=gze6NP1nXz8"
+      },
+      {
+        "title": "Ethereum Community Building",
+        "date": "2024",
+        "url": "https://www.youtube.com/watch?v=vQR-cOSXixY"
+      }
+    ],
+    "articles": [
+      {
+        "title": "$3M Was Stolen, But The Real Steal Is These Kia Sedonas",
+        "publisher": "CoinDesk",
+        "date": "2021-09-17",
+        "url": "https://www.coindesk.com/tech/2021/09/17/3m-was-stolen-but-the-real-steal-is-these-kia-sedonas-say-anonymous-developers",
+        "topic": "Code4rena"
+      },
+      {
+        "title": "Like an Esport: How OpenSea Secured Its Code",
+        "publisher": "Decrypt",
+        "date": "2022",
+        "url": "https://decrypt.co/105173/like-an-esport-how-opensea-secured-its-code-with-code4renas-audit-contest",
+        "topic": "Code4rena"
+      },
+      {
+        "title": "What It Takes to Halt a Decentralized Blockchain",
+        "publisher": "Blockworks",
+        "date": "2023",
+        "url": "https://blockworks.co/news/what-it-takes-to-halt-a-decentralized-blockchain-like-binance",
+        "topic": "Blockchain Security"
+      },
+      {
+        "title": "The Ultimate Guide to Blockchain Testing",
+        "publisher": "Binance",
+        "date": "2024",
+        "url": "https://www.binance.com/en/square/post/22222217653874",
+        "topic": "Whiteblock"
+      },
+      {
+        "title": "Rich Young Men Are Obsessed With This $7,000 Chair",
+        "publisher": "Business Insider",
+        "date": "2024-04",
+        "url": "https://www.businessinsider.com/rich-young-men-herman-miller-eames-chair-trend-2024-4",
+        "topic": "Tech Culture"
+      },
+      {
+        "title": "Fake Developers Flood Crypto Job Boards",
+        "publisher": "DL News",
+        "date": "2024",
+        "url": "https://www.dlnews.com/articles/defi/fake-developers-flood-crypto-job-boards-amid-bull-market/",
+        "topic": "Industry Insights"
+      }
+    ]
+  },
+  "statistics": {
+    "total_appearances": 20,
+    "documentaries": 1,
+    "podcasts": 6,
+    "conferences": 7,
+    "articles": 6
+  }
+}

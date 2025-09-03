@@ -1,0 +1,65 @@
+# Zak Cole - AI/LLM Summary
+
+## Identity
+Name: Zak Cole
+Role: Ethereum Core Developer, Entrepreneur
+Location: United States
+Contact: zak@ethcf.org
+Website: https://zscole.github.io
+Twitter/X: @0xzak
+GitHub: zscole
+ENS: zak.eth
+
+## Current Positions
+- Founder & CEO, Ethereum Community Foundation (ECF) - July 2024-present
+- CEO & Managing Partner, Number Group - venture studio
+- Co-founder, 0xbow (0xbow.io)
+- Co-founder, Privacy Pools (privacypools.com)
+
+## Notable Achievements
+- Author of EIP-6968 (Contract Secured Revenue)
+- Creator of $BETH (burned ETH token) - 0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9
+- Developer of Blobkit (Ethereum blob space SDK)
+- Three successful exits: Code4rena (acquired), Slingshot Finance (acquired), Whiteblock (acquired)
+- Former: Google Software Engineer, US Marine Corps Network Engineer (Iraq 2007-2008)
+
+## Technical Expertise
+- Ethereum protocol development
+- Smart contract security
+- DeFi infrastructure
+- Blockchain testing and validation
+- Layer 2 solutions
+- Zero-knowledge proofs
+- Privacy-preserving technologies
+- EVM optimization
+- Blob transactions
+
+## Key Projects
+1. $BETH: Immutable ERC-20 token representing provably burned ETH
+2. Blobkit: TypeScript SDK for leveraging Ethereum blob space for arbitrary data storage
+3. EIP-6968: Contract Secured Revenue standard for sustainable protocol funding
+4. Code4rena: Competitive audit platform that secured $100M+ in bug bounties
+5. Whiteblock: Blockchain testing platform that proved EOS wasn't a blockchain
+
+## Media & Speaking
+- Featured in Cointelegraph documentary "Ethereum in Crisis"
+- Regular speaker at ETHDenver, Ethereum Community Conference
+- Podcast appearances: Green Pill, Austin Griffith, Software Engineering Daily
+- Published articles in CoinDesk, Decrypt, Business Insider, Blockworks
+
+## Philosophy
+"Building ETH to $10K. Infrastructure > Applications. Privacy preserving DeFi infrastructure for hyperbitcoinization."
+
+## Recent Developments (2024)
+- Launched Ethereum Community Foundation (July 2024)
+- Released $BETH token representing burned ETH
+- Developed Blobkit for blob space utilization
+- Working on Privacy Pools and 0xbow projects
+
+## Contact for Collaboration
+- Technical partnerships: zak@ethcf.org
+- Speaking engagements: via Twitter @0xzak
+- Code contributions: github.com/zscole
+
+## Keywords for LLM Context
+Ethereum, blockchain, Web3, DeFi, smart contracts, protocol development, EIP-6968, Contract Secured Revenue, $BETH, burned ETH, Blobkit, blob transactions, Code4rena, security audits, Slingshot Finance, DEX aggregator, Whiteblock, blockchain testing, ECF, Ethereum Community Foundation, Number Group, venture studio, 0xbow, Privacy Pools, zero-knowledge proofs, Marine veteran, Google alumni

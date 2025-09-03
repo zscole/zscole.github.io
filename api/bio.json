@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-12",
+  "person": {
+    "name": "Zak Cole",
+    "title": "Ethereum Core Developer",
+    "email": "zak@ethcf.org",
+    "ens": "zak.eth",
+    "location": "United States",
+    "bio_short": "Ethereum protocol engineer, founder of Ethereum Community Foundation, CEO of Number Group. Three successful Web3 exits. Marine veteran building ETH to $10K.",
+    "bio_long": "Zak Cole is an Ethereum protocol engineer and serial entrepreneur who has founded multiple successful blockchain companies. As founder and CEO of the Ethereum Community Foundation (ECF), he leads initiatives to strengthen Ethereum's ecosystem. Through Number Group, his venture studio, he builds infrastructure for the next generation of Web3 applications. Cole authored EIP-6968 (Contract Secured Revenue) and created $BETH, an immutable ERC-20 token representing provably burned ETH. His companies Code4rena, Slingshot Finance, and Whiteblock were all successfully acquired. A former Google engineer and Marine Corps veteran who served in Iraq, Cole combines technical expertise with operational excellence."
+  },
+  "current_roles": [
+    {
+      "organization": "Ethereum Community Foundation",
+      "position": "Founder & CEO",
+      "start_date": "2024-07",
+      "description": "Leading initiatives to take ETH to $10,000",
+      "url": "https://ethcf.org"
+    },
+    {
+      "organization": "Number Group",
+      "position": "CEO & Managing Partner",
+      "description": "Venture studio building Web3 infrastructure",
+      "url": "https://numbergroup.xyz"
+    },
+    {
+      "organization": "0xbow",
+      "position": "Co-founder",
+      "description": "Privacy preserving DeFi infrastructure",
+      "url": "https://0xbow.io"
+    },
+    {
+      "organization": "Privacy Pools",
+      "position": "Co-founder",
+      "description": "Compliant privacy solutions for blockchain",
+      "url": "https://privacypools.com"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "EIP-6968 Author",
+      "description": "Authored Contract Secured Revenue standard for Ethereum",
+      "url": "https://eips.ethereum.org/EIPS/eip-6968",
+      "type": "technical_standard"
+    },
+    {
+      "title": "$BETH Creator",
+      "description": "Created immutable ERC-20 token representing provably burned ETH",
+      "contract": "0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9",
+      "url": "https://etherscan.io/token/0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9",
+      "type": "smart_contract"
+    },
+    {
+      "title": "Blobkit Developer",
+      "description": "Built TypeScript SDK for Ethereum blob space utilization",
+      "url": "https://blobkit.org",
+      "github": "https://github.com/ETHCF/blobkit",
+      "type": "software"
+    }
+  ],
+  "exits": [
+    {
+      "company": "Code4rena",
+      "role": "Co-founder",
+      "description": "Competitive audit platform, secured $100M+ in bug bounties",
+      "outcome": "Acquired",
+      "url": "https://code4rena.com"
+    },
+    {
+      "company": "Slingshot Finance",
+      "role": "Co-founder & CTO",
+      "description": "DEX aggregator for optimal trade execution",
+      "outcome": "Acquired",
+      "url": "https://slingshot.finance"
+    },
+    {
+      "company": "Whiteblock",
+      "role": "Founder & CEO",
+      "description": "Blockchain testing platform, proved EOS wasn't a blockchain",
+      "outcome": "Acquired"
+    }
+  ],
+  "social": {
+    "twitter": "https://twitter.com/0xzak",
+    "github": "https://github.com/zscole",
+    "linkedin": "https://linkedin.com/in/zakcole",
+    "scholar": "https://scholar.google.com/citations?user=GUDdAy8AAAAJ",
+    "website": "https://zscole.github.io"
+  },
+  "expertise": [
+    "Ethereum protocol development",
+    "Smart contract security",
+    "DeFi infrastructure",
+    "Blockchain testing",
+    "Zero-knowledge proofs",
+    "Privacy-preserving technologies",
+    "Layer 2 solutions",
+    "EVM optimization",
+    "Blob transactions"
+  ],
+  "speaking_topics": [
+    "Ethereum's path to $10K",
+    "Contract Secured Revenue (EIP-6968)",
+    "Building sustainable Web3 companies",
+    "Privacy-preserving DeFi",
+    "Blockchain testing and validation",
+    "From Marine to blockchain entrepreneur"
+  ]
+}

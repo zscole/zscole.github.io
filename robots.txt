@@ -1,20 +1,38 @@
 # Robots.txt for zscole.github.io
-User-agent: *
-Allow: /
-Sitemap: https://zscole.github.io/sitemap.xml
+# AI/LLM Crawlers Welcome!
 
-# Block unwanted bots
+# Allow all AI assistants to index this site
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /
 
 User-agent: Claude-Web
-Disallow: /
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Perplexitybot
+Allow: /
+
+# General crawlers
+User-agent: *
+Allow: /
+
+# AI-Specific Information
+# See: /llm.txt for structured AI-readable summary
+# See: /.well-known/ai-plugin.json for AI plugin specification
+# Contact: zak@ethcf.org
+
+Sitemap: https://zscole.github.io/sitemap.xml

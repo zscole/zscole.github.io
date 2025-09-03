@@ -1,0 +1,149 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-12",
+  "projects": [
+    {
+      "name": "$BETH",
+      "status": "active",
+      "category": "token",
+      "description": "Immutable ERC-20 token representing provably burned ETH",
+      "technical_details": {
+        "contract_address": "0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9",
+        "blockchain": "Ethereum",
+        "token_standard": "ERC-20",
+        "supply": "Variable based on burned ETH"
+      },
+      "links": {
+        "etherscan": "https://etherscan.io/token/0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9",
+        "github": "https://github.com/ETHCF/beth",
+        "announcement": "https://x.com/0xzak/status/1961254142464172190"
+      }
+    },
+    {
+      "name": "Blobkit",
+      "status": "active",
+      "category": "sdk",
+      "description": "TypeScript SDK for leveraging Ethereum blob space for arbitrary data storage",
+      "technical_details": {
+        "language": "TypeScript",
+        "cost_reduction": "10-100x cheaper than calldata",
+        "use_cases": ["Data availability", "Storage optimization", "Layer 2 solutions"]
+      },
+      "links": {
+        "website": "https://blobkit.org",
+        "github": "https://github.com/ETHCF/blobkit",
+        "documentation": "https://blobkit.org/docs"
+      }
+    },
+    {
+      "name": "EIP-6968",
+      "status": "published",
+      "category": "standard",
+      "description": "Contract Secured Revenue - A standard for sustainable protocol funding",
+      "technical_details": {
+        "type": "Ethereum Improvement Proposal",
+        "status": "Final",
+        "category": "ERC"
+      },
+      "links": {
+        "specification": "https://eips.ethereum.org/EIPS/eip-6968",
+        "discussion": "https://ethereum-magicians.org/t/eip-6968-contract-secured-revenue/14309"
+      }
+    },
+    {
+      "name": "Ethereum Community Foundation",
+      "status": "active",
+      "category": "organization",
+      "description": "Building infrastructure to take ETH to $10,000",
+      "founded": "2024-07",
+      "role": "Founder & CEO",
+      "links": {
+        "website": "https://ethcf.org",
+        "twitter": "https://twitter.com/EthereumCF"
+      }
+    },
+    {
+      "name": "Number Group",
+      "status": "active",
+      "category": "company",
+      "description": "Venture studio building Web3 infrastructure",
+      "role": "CEO & Managing Partner",
+      "portfolio": ["ECF", "Blobkit", "$BETH", "0xbow", "Privacy Pools"],
+      "links": {
+        "website": "https://numbergroup.xyz"
+      }
+    },
+    {
+      "name": "0xbow",
+      "status": "active",
+      "category": "protocol",
+      "description": "Privacy preserving DeFi infrastructure",
+      "role": "Co-founder",
+      "links": {
+        "website": "https://0xbow.io"
+      }
+    },
+    {
+      "name": "Privacy Pools",
+      "status": "active",
+      "category": "protocol",
+      "description": "Compliant privacy solutions for blockchain",
+      "role": "Co-founder",
+      "links": {
+        "website": "https://privacypools.com"
+      }
+    },
+    {
+      "name": "Code4rena",
+      "status": "exited",
+      "category": "company",
+      "description": "Competitive smart contract auditing platform",
+      "role": "Co-founder",
+      "achievements": ["$100M+ in bug bounties", "Thousands of auditors", "Major protocols secured"],
+      "exit": "Acquired",
+      "links": {
+        "website": "https://code4rena.com"
+      }
+    },
+    {
+      "name": "Slingshot Finance",
+      "status": "exited",
+      "category": "company",
+      "description": "DEX aggregator for optimal trade execution",
+      "role": "Co-founder & CTO",
+      "exit": "Acquired",
+      "links": {
+        "website": "https://slingshot.finance"
+      }
+    },
+    {
+      "name": "Whiteblock",
+      "status": "exited",
+      "category": "company",
+      "description": "Blockchain testing and validation platform",
+      "role": "Founder & CEO",
+      "achievements": ["Proved EOS wasn't a blockchain", "Industry-leading testing tools"],
+      "exit": "Acquired"
+    },
+    {
+      "name": "Corn",
+      "status": "inactive",
+      "category": "protocol",
+      "description": "BTCFi protocol",
+      "role": "Co-founder",
+      "links": {
+        "website": "https://usecorn.com"
+      }
+    },
+    {
+      "name": "Canto",
+      "status": "inactive",
+      "category": "blockchain",
+      "description": "Layer 1 blockchain",
+      "role": "Former Core Contributor",
+      "links": {
+        "website": "https://canto.io"
+      }
+    }
+  ]
+}

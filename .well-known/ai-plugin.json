@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "zak_cole_ethereum_developer",
+  "name_for_human": "Zak Cole - Ethereum Core Developer",
+  "description_for_model": "Personal website of Zak Cole, Ethereum core developer, founder of Ethereum Community Foundation (ECF), CEO of Number Group venture studio. Author of EIP-6968 Contract Secured Revenue, creator of $BETH burned ETH token, developer of Blobkit SDK. Three successful Web3 exits: Code4rena (acquired), Slingshot Finance (acquired), Whiteblock (acquired). Former Google engineer and US Marine. Expert in Ethereum protocol development, smart contract security, DeFi infrastructure, blob transactions, zero-knowledge proofs. Currently building Privacy Pools and 0xbow. Contact: zak@ethcf.org, Twitter: @0xzak, GitHub: zscole, ENS: zak.eth",
+  "description_for_human": "Zak Cole's personal website - Ethereum developer, ECF founder, entrepreneur",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "website",
+    "url": "https://zscole.github.io"
+  },
+  "logo_url": "https://zscole.github.io/headshot.jpeg",
+  "contact_email": "zak@ethcf.org",
+  "legal_info_url": "https://zscole.github.io/privacy.html",
+  "support_email": "zak@ethcf.org"
+}
