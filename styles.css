@@ -774,20 +774,21 @@ body::before {
     }
     
     .terminal-table tbody tr {
-        display: flex;
-        align-items: center;
-        margin-bottom: 5px;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 10px;
+        margin-bottom: 8px;
         padding: 5px 0;
+        align-items: center;
     }
     
     .terminal-table tbody td {
-        padding: 2px 5px;
+        padding: 2px 0;
     }
     
     .terminal-table tbody td.table-label {
         font-weight: bold;
-        min-width: 80px;
-        text-align: left;
+        text-align: right;
     }
     
     .bio-content {
@@ -804,6 +805,19 @@ body::before {
     .section-content {
         font-size: 0.85rem;
         line-height: 1.4;
+        word-break: normal;
+        overflow-wrap: normal;
+    }
+    
+    .section-content br {
+        display: block;
+        content: "";
+        margin-top: 0.5em;
+    }
+    
+    .section-content span {
+        display: inline-block;
+        white-space: nowrap;
     }
     
     .terminal-prompt {
@@ -875,6 +889,10 @@ body::before {
 
 /* Mobile phone styles */
 @media screen and (max-width: 480px) {
+    .terminal-table tbody tr {
+        grid-template-columns: 75px 1fr;
+        gap: 8px;
+    }
     .browser-frame {
         padding: 10px;
     }
@@ -924,6 +942,17 @@ body::before {
         font-size: 0.8rem;
         padding: 0 5px;
         line-height: 1.3;
+        word-break: normal;
+        overflow-wrap: normal;
+    }
+    
+    /* Prevent random line breaks in JUST SHIPPED */
+    .section-content .highlight {
+        white-space: nowrap;
+    }
+    
+    .section-content a {
+        white-space: nowrap;
     }
     
     /* Improve link touch targets on mobile only */
