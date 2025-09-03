@@ -54,37 +54,201 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/jpg" href="favicon.png" />
     
-    <!-- Structured Data -->
+    <!-- Structured Data for Rich Snippets & Knowledge Panel -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Zak Cole",
+      "alternateName": ["0xzak", "zak.eth"],
       "url": "https://zscole.github.io/",
-      "image": "https://zscole.github.io/headshot-og.jpeg",
+      "image": "https://zscole.github.io/headshot-og-1200x630.jpeg",
+      "email": "zcole@linux.com",
       "sameAs": [
         "https://twitter.com/0xzak",
         "https://github.com/zscole",
         "https://medium.com/@zscole",
-        "https://www.linkedin.com/in/zakcole"
+        "https://www.linkedin.com/in/zakcole",
+        "https://scholar.google.com/citations?user=GUDdAy8AAAAJ",
+        "https://www.youtube.com/@zakcole"
       ],
       "jobTitle": "CEO & Founder",
       "worksFor": [
         {
           "@type": "Organization",
-          "name": "Ethereum Community Foundation"
+          "name": "Ethereum Community Foundation",
+          "url": "https://ethcf.org",
+          "foundingDate": "2024-07",
+          "founder": {
+            "@type": "Person",
+            "name": "Zak Cole"
+          }
         },
         {
           "@type": "Organization",
-          "name": "Number Group"
+          "name": "Number Group",
+          "url": "https://numbergroup.xyz",
+          "description": "Web3 venture studio"
         }
       ],
-      "alumniOf": {
-        "@type": "Organization",
-        "name": "Google"
-      },
-      "knowsAbout": ["Ethereum", "Blockchain", "DeFi", "Smart Contracts", "Web3", "Protocol Development"],
-      "description": "Ethereum protocol engineer, founder of Ethereum Community Foundation, CEO of Number Group. 3 successful Web3 exits. Marine veteran building ETH to $10K."
+      "alumniOf": [
+        {
+          "@type": "Organization",
+          "name": "Google"
+        },
+        {
+          "@type": "Organization",
+          "name": "United States Marine Corps",
+          "description": "Served in Operation Iraqi Freedom 2007-2008"
+        }
+      ],
+      "award": [
+        "3 Successful Web3 Exits",
+        "Founded Code4rena - $100M+ in bugs secured",
+        "Authored EIP-6968"
+      ],
+      "knowsAbout": [
+        "Ethereum Protocol Development",
+        "Smart Contract Security",
+        "DeFi Infrastructure",
+        "Blockchain Architecture",
+        "Web3 Entrepreneurship",
+        "Decentralized Finance",
+        "Contract Secured Revenue",
+        "EIP Development"
+      ],
+      "description": "Ethereum protocol engineer, founder of Ethereum Community Foundation, CEO of Number Group. Three successful Web3 exits (Slingshot Finance, Code4rena, Whiteblock). Marine veteran building ETH to $10K.",
+      "nationality": "American",
+      "gender": "Male",
+      "honorificPrefix": "Mr.",
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "$BETH",
+          "description": "Immutable ERC-20 token representing provably burned ETH"
+        },
+        {
+          "@type": "Brand",
+          "name": "Blobkit",
+          "url": "https://blobkit.org",
+          "description": "TypeScript SDK for Ethereum blob transactions"
+        }
+      ],
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ethereum Foundation",
+          "url": "https://ethereum.org"
+        },
+        {
+          "@type": "Organization",
+          "name": "0xbow",
+          "url": "https://0xbow.io"
+        },
+        {
+          "@type": "Organization",
+          "name": "Privacy Pools",
+          "url": "https://privacypools.com"
+        }
+      ],
+      "publishingPrinciples": "https://zscole.github.io/",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Speaking Engagements",
+            "description": "Ethereum protocol development, smart contract security, Web3 entrepreneurship"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Organization Schema for Companies -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Zak Cole's Companies",
+      "description": "Companies founded or co-founded by Zak Cole",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Organization",
+            "name": "Ethereum Community Foundation",
+            "url": "https://ethcf.org",
+            "founder": "Zak Cole",
+            "foundingDate": "2024",
+            "description": "Driving ETH to $10,000"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Organization",
+            "name": "Code4rena",
+            "url": "https://code4rena.com",
+            "description": "Competitive smart contract auditing platform. $100M+ in bugs secured. ACQUIRED."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Organization",
+            "name": "Slingshot Finance",
+            "url": "https://slingshot.finance",
+            "description": "DEX aggregator. ACQUIRED."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Organization",
+            "name": "Whiteblock",
+            "description": "Blockchain testing platform. Proved EOS wasn't a blockchain. ACQUIRED."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- FAQ Schema for Common Questions -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Who is Zak Cole?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zak Cole is an Ethereum protocol engineer, founder of the Ethereum Community Foundation, and CEO of Number Group. He has three successful Web3 exits and is a Marine Corps veteran."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is EIP-6968?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EIP-6968 is the Contract Secured Revenue standard authored by Zak Cole, providing a framework for sustainable protocol funding on Ethereum."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is $BETH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$BETH is an immutable ERC-20 token created by Zak Cole that represents provably burned ETH. Each $BETH token represents 1 ETH permanently removed from circulation."
+          }
+        }
+      ]
     }
     </script>
 </head>
