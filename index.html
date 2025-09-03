@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0EN2LHJ42X"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -15,97 +14,340 @@
     </script>
 
     <meta charset="utf-8">
-    <title>Yeah</title>
-
+    <title>Zak Cole | Protocol Engineer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/jpg" href="favicon.png" />
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Blockchain protocol engineer, DeFi builder, and cypherpunk">
+    <meta name="keywords" content="blockchain, ethereum, defi, protocol engineer, cypherpunk">
 </head>
 
-<div class="container browser-frame center">
-    <div id="window"></div>
-    <main class="content">
-        <div class="the-internet">
-            <img src="me-as-fun-hotdog.jpeg" alt="fun!">
-            <h1>Zak Cole</h1>
-            <img src="me-as-professional.jpg" alt="fun!">
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <pre class="loading-ascii">
+ ██████╗ ██████╗ ███╗   ██╗███╗   ██╗███████╗ ██████╗████████╗██╗███╗   ██╗ ██████╗ 
+██╔════╝██╔═══██╗████╗  ██║████╗  ██║██╔════╝██╔════╝╚══██╔══╝██║████╗  ██║██╔════╝ 
+██║     ██║   ██║██╔██╗ ██║██╔██╗ ██║█████╗  ██║        ██║   ██║██╔██╗ ██║██║  ███╗
+██║     ██║   ██║██║╚██╗██║██║╚██╗██║██╔══╝  ██║        ██║   ██║██║╚██╗██║██║   ██║
+╚██████╗╚██████╔╝██║ ╚████║██║ ╚████║███████╗╚██████╗   ██║   ██║██║ ╚████║╚██████╔╝
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ 
+            </pre>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-text">INITIALIZING SYSTEM...</div>
         </div>
-        <p>
-            Hi, my name is <a target="_blank" href="https://scfab.github.io/2019/cole.html">Zak Cole.</a><br>
-            <br> I am a blockchain protocol engineer, DeFi enthusiast, and <a target="_blank" href="/portfolio.html">angel investor.</a><br>
-            <br> You might know me through my <a target="_blank" href="https://scholar.google.com/citations?user=GUDdAy8AAAAJ&hl=en&oi=ao">Ethereum protocol research</a> or
-            <a target="_blank" href="https://thenextweb.com/hardfork/2019/04/11/chrome-browser-cryptocurrency-blockchain-governance-assplay/">general Internet hijinks</a>.
-            <br>
-            <br>Currently, I am the co-founder and CTO of <a target="_blank" href="https://slingshot.finance">Slingshot</a>, a decentralized exchange.<br>
-            <br>I co-founded <a target="_blank" href="https://code4rena.com/">Code4rena</a>, a smart contract auditing DAO, and contribute to <a target="_blank" href="https://canto.io/">Canto</a>, a DeFi specific blockchain ecosystem.<br>
-            <br>Previously, I founded a company called <a target="_blank" href="https://eng.ambcrypto.com/ethereum-is-money-asserts-whiteblocks-zak-cole/">Whiteblock</a>, which specialized in blockchain protocol testing, research, and development.<br>
-            <br>I also worked at Google and founded the Testing Working Group at the <a target="_blank" href="https://cointelegraph.com/news/eea-partners-with-whiteblock-to-offer-new-testnet-with-controlled-environment">Ethereum Enterprise Alliance.</a><br>
-            <br>I serve as advisor to several blockchain related companies, like <a target="_blank" href="https://cryptex.finance/">Cryptex</a>, <a target="_blank" href="https://defipulse.com">DeFi Pulse</a> and the <a target="_blank" href="https://syscoin.org/">Syscoin Foundation</a>.<br>
-            <br>
-            <br> If you don't know me, then get to know me by exploring the links in the table below.
-        </p>
-        <table>
-            <tr>
-                <td>Twitter:</td>
-                <td><a target="_blank" href="https://twitter.com/0xzak">@0xzak</a></td>
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td><a href="mailto:zcole@linux.com.com">zcole@linux.com</a></td>
-            </tr>
-            <tr>
-                <td>ENS Address:</td>
-                <td>zakcole.eth</td>
-            </tr>
-            <tr>
-                <td>GitHub:</td>
-                <td><a target="_blank" href="https://github.com/zscole">@zscole</a></td>
-            </tr>
-            <tr>
-                <td>Medium:</td>
-                <td><a target="_blank" href="https://medium.com/@zscole">@zscole</a></td>
-            </tr>
+    </div>
+    
+    <div class="scan-line"></div>
+    <div class="terminal-flicker"></div>
+    
+    <div class="container browser-frame center" id="main-terminal">
+        <div id="window"></div>
+        <main class="content terminal-screen">
+            <div class="terminal-header">
+                <pre class="ascii-art" aria-label="Zak Cole">
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█                                                                    █
+█    ███████╗ █████╗ ██╗  ██╗    ██████╗ ██████╗ ██╗     ███████╗    █
+█       ███║ ██╔══██╗██║ ██╔╝   ██╔════╝██╔═══██╗██║     ██╔════╝    █
+█      ███║  ███████║█████╔╝    ██║     ██║   ██║██║     █████╗      █
+█     ███║   ██╔══██║██╔═██╗    ██║     ██║   ██║██║     ██╔══╝      █
+█    ███████╗██║  ██║██║  ██╗   ╚██████╗╚██████╔╝███████╗███████╗    █
+█    ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═════╝ ╚═════╝ ╚══════╝╚══════╝    █
+█                                                                    █
+█       ETHEREUM CORE DEV │ PROTOCOL ENGINEER │ USMC VETERAN         █
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
+                </pre>
+                <div class="terminal-status">
+                    <span class="status-item">[CONNECTED]</span>
+                    <span class="status-item">2400 BAUD</span>
+                    <span class="status-item" id="terminal-time">00:00:00</span>
+                </div>
+            </div>
 
+            <section class="bio-section">
+                <div class="terminal-prompt">
+                    <span class="prompt-symbol">$</span> cat /home/zak/bio.txt
+                </div>
+                
+                <div class="bio-content typing-container">
+                    <div class="terminal-text">
+                        <p><span class="highlight">SYSTEM:</span> Loading user profile...</p>
+                        
+                        <p>I'm <a href="https://scfab.github.io/2019/cole.html" target="_blank" rel="noopener" class="terminal-link">Zak Cole</a>.<br>
+                        I develop infrastructure for Ethereum and build venture-scale companies.</p>
+                        
+                        <div class="section-header">## JUST SHIPPED ##</div>
+                        <div class="section-content">
+                            <span class="highlight">> <a href="https://blobkit.org" target="_blank" rel="noopener" class="terminal-link">Blobkit</a></span> - TypeScript SDK for Ethereum blob transactions<br>
+                            &nbsp;&nbsp;&nbsp;<a href="https://github.com/ETHCF/blobkit" target="_blank" rel="noopener" class="terminal-link">[GitHub]</a> 10-100x cheaper than calldata<br>
+                            <span class="highlight">> <a href="https://etherscan.io/token/0x2cb662Ec360C34a45d7cA0126BCd53C9a1fd48F9" target="_blank" rel="noopener" class="terminal-link">$BETH</a></span> - immutable ERC-20 representing provably burned ETH<br>
+                            &nbsp;&nbsp;&nbsp;<a href="https://github.com/ETHCF/beth" target="_blank" rel="noopener" class="terminal-link">[GitHub]</a> <a href="https://x.com/0xzak/status/1961254142464172190" target="_blank" rel="noopener" class="terminal-link">[announcement]</a><br>
+                            <span class="highlight">> Founded <a href="https://ethcf.org" target="_blank" rel="noopener" class="terminal-link">Ethereum Community Foundation</a></span> - July 2025<br>
+                            &nbsp;&nbsp;&nbsp;We're taking ETH to $10,000. Not a meme.
+                        </div>
+                        
+                        <div class="section-header">## CURRENTLY BUILDING ##</div>
+                        <div class="section-content">
+                            > <a href="https://ethcf.org" target="_blank" rel="noopener" class="terminal-link">Ethereum Community Foundation</a> - Founder. ETH to $10K<br>
+                            > <a href="https://numbergroup.xyz" target="_blank" rel="noopener" class="terminal-link">Number Group</a> - CEO & Managing Partner. Venture studio<br>
+                            > <a href="https://0xbow.io" target="_blank" rel="noopener" class="terminal-link">0xbow</a> - Co-founder. Privacy preserving DeFi infrastructure<br>
+                            > <a href="https://privacypools.com" target="_blank" rel="noopener" class="terminal-link">Privacy Pools</a> - Co-founder. Compliant privacy
+                        </div>
+                        
+                        <div class="section-header">## SUCCESSFUL EXITS ##</div>
+                        <div class="section-content">
+                            > <a href="https://slingshot.finance" target="_blank" rel="noopener" class="terminal-link">Slingshot</a> - Co-founded & CTO. DEX aggregator. ACQUIRED ✓<br>
+                            > <a href="https://code4rena.com/" target="_blank" rel="noopener" class="terminal-link">Code4rena</a> - Co-founded. $100M+ in bugs found. ACQUIRED ✓<br>
+                            > <a href="https://eng.ambcrypto.com/ethereum-is-money-asserts-whiteblocks-zak-cole/" target="_blank" rel="noopener" class="terminal-link">Whiteblock</a> - Founded. Proved EOS wasn't a blockchain. ACQUIRED ✓
+                        </div>
+                        
+                        <div class="section-header">## ALSO BUILT ##</div>
+                        <div class="section-content">
+                            > <a href="https://usecorn.com" target="_blank" rel="noopener" class="terminal-link">Corn</a> - Co-founded. BTCFi<br>
+                            > <a href="https://canto.io/" target="_blank" rel="noopener" class="terminal-link">Canto</a> - Former core contributor<br>
+                            > <a href="https://eips.ethereum.org/EIPS/eip-6968" target="_blank" rel="noopener" class="terminal-link">EIP-6968</a> - Authored. Contract Secured Revenue<br>
+                            > EEA Testing Working Group - Founded and led it
+                        </div>
+                        
+                        <div class="section-header">## BACKGROUND ##</div>
+                        <div class="section-content">
+                            > U.S. Marine Corps - Built networks in Iraq (2007-2008)<br>
+                            > Google - Learned how to scale things that matter<br>
+                            > <a href="https://scholar.google.com/citations?user=GUDdAy8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener" class="terminal-link">Ethereum Research</a> - Published stuff people actually read
+                        </div>
+                        
+                        <div class="section-header">## INVESTMENTS ##</div>
+                        <div class="section-content">
+                            > Angel investor in too many projects to list<br>
+                            > Previously advised Cryptex, DeFi Pulse, Syscoin, and more<br>
+                            > Now I just build through <a href="https://numbergroup.xyz" target="_blank" rel="noopener" class="terminal-link">Number Group</a>
+                        </div>
+                        
+                        <p>If you don't know me, scroll down and click some links.<br>
+                        If you do know me, you probably owe me a beer.</p>
+                        
+                        <span class="terminal-cursor">█</span>
+                    </div>
+                </div>
+            </section>
 
-        </table>
+            <section class="connection-table">
+                <div class="terminal-prompt">
+                    <span class="prompt-symbol">$</span> cat /etc/connections.conf
+                </div>
+                
+                <table class="terminal-table" role="table">
+                    <thead>
+                        <tr>
+                            <th colspan="2">╔═══════════════════════════════════════╗</th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">     NETWORK CONNECTIONS AVAILABLE     </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2">╚═══════════════════════════════════════╝</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-label">Twitter:</td>
+                            <td><a href="https://twitter.com/0xzak" target="_blank" rel="noopener" class="terminal-link">@0xzak</a></td>
+                        </tr>
+                        <tr>
+                            <td class="table-label">Email:</td>
+                            <td><a href="mailto:zcole@linux.com" class="terminal-link">zcole@linux.com</a></td>
+                        </tr>
+                        <tr>
+                            <td class="table-label">ENS:</td>
+                            <td class="ens-address">zak.eth</td>
+                        </tr>
+                        <tr>
+                            <td class="table-label">GitHub:</td>
+                            <td><a href="https://github.com/zscole" target="_blank" rel="noopener" class="terminal-link">@zscole</a></td>
+                        </tr>
+                        <tr>
+                            <td class="table-label">Medium:</td>
+                            <td><a href="https://medium.com/@zscole" target="_blank" rel="noopener" class="terminal-link">@zscole</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
-        <br> If you already know me and would like to reference or review some news articles that feature my opinions or work, the table below contains links to some relevant media.<br>
-        <table>
-            <tr>
+            <section class="media-section">
+                <div class="terminal-prompt">
+                    <span class="prompt-symbol">$</span> ls -la /var/log/media/
+                </div>
+                
+                <table class="terminal-table media-table" role="table">
+                    <thead>
+                        <tr>
+                            <th>╔═══════════════════════════════════════╗</th>
+                        </tr>
+                        <tr>
+                        <th>          MEDIA TRANSMISSIONS          </th>
+                        </tr>
+                        <tr>
+                            <th>╚═══════════════════════════════════════╝</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=20zFEDQdKl8" target="_blank" rel="noopener" class="terminal-link">[DOCUMENTARY] Ethereum in Crisis: Price, Politics, and Power</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/live/wRgvt5afm54?feature=shared" target="_blank" rel="noopener" class="terminal-link">[LIVE] Ethereum Community Foundation Launch</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=bhA-ezQO_wI&ab_channel=AustinGriffith" target="_blank" rel="noopener" class="terminal-link">[PODCAST] PMFers: Product Market Fit in DeFi</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=zS4-zOfoKAE&ab_channel=GreenPill" target="_blank" rel="noopener" class="terminal-link">[PODCAST] Green Pill: EIP-6968 & Web3 Incentives</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=eRdkYgdbyIM&ab_channel=PGP%2a%28PrettyGoodPolicy%29forCrypto" target="_blank" rel="noopener" class="terminal-link">[TALK] 0xbow: ZK Proofs for Privacy & Compliance</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=gze6NP1nXz8&ab_channel=Whiteblock" target="_blank" rel="noopener" class="terminal-link">[TALK] Web3 Summit: P2P System Evaluation</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=SMYUAw1ps6o&ab_channel=LinkTime" target="_blank" rel="noopener" class="terminal-link">[TALK] EDCON 2019: Blockchain Testing at Scale</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=u_S79X7F1Cs&ab_channel=ETHDenver" target="_blank" rel="noopener" class="terminal-link">[PANEL] ETHDenver: Smart Contract Security & Code4rena</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=02ivZ4PpyWo&ab_channel=ETHDenver" target="_blank" rel="noopener" class="terminal-link">[PANEL] Privacy Pools: Realism vs. Idealism in DeFi</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=WRJHRkReGf4&ab_channel=SoftwareEngineeringWithScottMoore" target="_blank" rel="noopener" class="terminal-link">[TALK] ETH Denver: Performance Testing Blockchain</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=MRvfdiX1KBI&ab_channel=AustinGriffith" target="_blank" rel="noopener" class="terminal-link">[STREAM] Getting Started with Code4rena Auditing</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=Au1Qll-86v0&ab_channel=EthereumFoundation" target="_blank" rel="noopener" class="terminal-link">[MEETING] Core Devs: Eth1x/Istanbul Planning</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=RTfdTqb3IDw&ab_channel=51percentCryptoResearch" target="_blank" rel="noopener" class="terminal-link">[INTERVIEW] Exposing EOS: Three Months of Analysis</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=vQR-cOSXixY&t=292" target="_blank" rel="noopener" class="terminal-link">[TALK] ETHBerlin: Meme Driven Development</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=vba3Fdx1960&ab_channel=BanklessShows" target="_blank" rel="noopener" class="terminal-link">[PODCAST] Bankless: What's Going On With Canto?</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://thenextweb.com/news/eos-blockchain-benchmark" target="_blank" rel="noopener" class="terminal-link">[RESEARCH] Proved EOS Wasn't a Blockchain</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.coindesk.com/tech/2021/09/17/3m-was-stolen-but-the-real-steal-is-these-kia-sedonas-say-anonymous-developers" target="_blank" rel="noopener" class="terminal-link">[ARTICLE] CoinDesk: $3M Stolen, But The Real Steal Is These Kia Sedonas</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://decrypt.co/105173/like-an-esport-how-opensea-secured-its-code-with-code4renas-audit-contest" target="_blank" rel="noopener" class="terminal-link">[ARTICLE] Decrypt: How OpenSea Secured Its Code With Code4rena</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://blockworks.co/news/what-it-takes-to-halt-a-decentralized-blockchain-like-binance" target="_blank" rel="noopener" class="terminal-link">[ARTICLE] Blockworks: What It Takes to Halt a Decentralized Blockchain</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.binance.com/en/square/post/22222217653874" target="_blank" rel="noopener" class="terminal-link">[ARTICLE] Binance: Feature on Protocol Development</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.businessinsider.com/rich-young-men-herman-miller-eames-chair-trend-2024-4" target="_blank" rel="noopener" class="terminal-link">[ARTICLE] Business Insider: Rich Young Men & The Eames Chair Trend</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.dlnews.com/articles/defi/fake-developers-flood-crypto-job-boards-amid-bull-market/" target="_blank" rel="noopener" class="terminal-link">[ARTICLE] DL News: Fake Developers Flood Crypto Job Boards</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
-                <td><a target="_blank" href="https://www.youtube.com/watch?v=vba3Fdx1960&ab_channel=BanklessShows">Bankless: What's going on with Canto?
-                </a></td>
+            <section class="press-section">
+                <div class="terminal-prompt">
+                    <span class="prompt-symbol">$</span> cat /usr/share/press-kit/
+                </div>
+                
+                <div class="press-content">
+                    <div class="press-grid">
+                        <div class="press-left">
+                            <img src="headshot.jpeg" alt="Zak Cole" class="headshot" />
+                            <div class="press-links">
+                                <a href="headshot.jpeg" download="zak-cole-headshot.jpeg" class="terminal-link">Download Hi-Res</a>
+                            </div>
+                        </div>
+                        <div class="press-right">
+                            <span class="section-header">## PRESS / SPEAKING ##</span><br><br>
+                            <strong>Bio (Short):</strong><br>
+                            Zak Cole is an Ethereum protocol engineer and serial entrepreneur. He is founder of the Ethereum Community Foundation and CEO of Number Group, a Web3 venture studio. His previous companies include Slingshot Finance, Code4rena, and Whiteblock, all successfully acquired. A Marine Corps veteran and former Google engineer, he authored EIP-6968 and created $BETH, an immutable token representing provably burned ETH.<br><br>
+                            
+                            <strong>Bio (Long):</strong><br>
+                            Zak Cole is a protocol engineer and entrepreneur focused on building critical Ethereum infrastructure. As founder of the Ethereum Community Foundation and CEO of Number Group, he leads development of next-generation blockchain technologies. His track record includes founding Slingshot Finance (DEX aggregator), co-founding Code4rena (which has secured over $100M in bug bounties), and founding Whiteblock, whose research famously proved EOS wasn't a blockchain. All three ventures were successfully acquired.<br><br>
+                            
+                            Currently, Cole is developing Blobkit, a TypeScript SDK that allows users to leverage Ethereum blob space for arbitrary data storage, and $BETH, an immutable ERC-20 token representing provably burned ETH. He also co-founded 0xbow, focusing on privacy-preserving DeFi infrastructure, and Privacy Pools, which enables compliant privacy solutions.<br><br>
+                            
+                            A U.S. Marine Corps veteran who served in Iraq (2007-2008) and former Google engineer, Cole brings both technical depth and operational experience to Web3. He authored EIP-6968 (Contract Secured Revenue), a standard for sustainable protocol funding, and has contributed to major projects including Corn and Canto.<br><br>
+                            
+                            <strong>Speaking Topics:</strong><br>
+                            > Ethereum protocol development & EIPs<br>
+                            > Smart contract security & competitive auditing<br>
+                            > Building venture-scale Web3 companies<br>
+                            > DeFi infrastructure & DEX aggregation<br>
+                            > Contract Secured Revenue (EIP-6968)<br>
+                            > Successful exits in Web3<br><br>
+                            
+                            <a href="mailto:zak@numbergroup.xyz" class="terminal-link">Contact for speaking engagements ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            </tr>
-            <tr>
+            <div class="terminal-footer">
+                <p class="terminal-text hint">
+                    <span class="blink">▸</span> Press ` or ~ to access terminal
+                </p>
+            </div>
+        </main>
 
-                <tr>
+        <!-- Hidden command line interface -->
+        <div class="command-line" id="commandLine">
+            <div class="command-output" id="commandOutput"></div>
+            <div class="command-input-line">
+                <span class="prompt-symbol">$</span>
+                <input type="text" id="commandInput" class="command-input" autocomplete="off" spellcheck="false">
+            </div>
+        </div>
+    </div>
 
-                    <td><a target="_blank" href="https://thenextweb.com/news/eos-blockchain-benchmark">Research: EOS is not a blockchain, it’s a glorified cloud computing service
-                </a></td>
-                </tr>
-                <tr>
-                    <td><a href="https://www.coindesk.com/tech/2021/09/17/3m-was-stolen-but-the-real-steal-is-these-kia-sedonas-say-anonymous-developers/">$3M Was Stolen, but the Real Steal Is These Kia Sedonas, Say Anonymous Developers
-                </a></td>
-                </tr>
-                <tr>
-                    <td><a target="_blank" href="https://blockworks.co/news/what-it-takes-to-halt-a-decentralized-blockchain-like-binance">What It Takes to Halt a ‘Decentralized’ Blockchain Like Binance
+    <div id="ascii-images" style="display: none;">
+        <pre id="hotdog-ascii">
+    .-"-.
+   /     \
+  | o   o |
+  |   >   |
+  |  ___  |
+   \     /
+    '---'
+  [HOTDOG]
+        </pre>
+        <pre id="professional-ascii">
+     ___
+    /   \
+   |  ◉  |
+   | --- |
+   |  |  |
+    \___/
+   [PROFESSIONAL]
+        </pre>
+    </div>
 
-                </a></td>
-                </tr>
-                <tr>
-                    <td><a target="_blank" href="https://decrypt.co/105173/like-an-esport-how-opensea-secured-its-code-with-code4renas-audit-contest">‘Like an Esport’: How OpenSea Secured Its Code With Code4rena’s Audit Contest
-                </a></td>
-                </tr>
-
-
-        </table>
-        <p>
-        </p>
-    </main>
-
-</div>
-
+    <script src="terminal.js"></script>
+</body>
 </html>
