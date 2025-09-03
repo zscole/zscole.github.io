@@ -726,14 +726,14 @@ body::before {
     }
     
     .browser-frame {
-        padding: 80px 15px 20px 15px;
+        padding: 15px;
         height: 100vh;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
     }
     
     .browser-frame::before {
-        border-image-width: 80px 15px 20px 15px;
+        display: none;
     }
     
     .terminal-screen {
@@ -852,25 +852,31 @@ body::before {
     
     /* Loading screen adjustments */
     .loading-ascii {
-        font-size: 0.3rem;
+        font-size: 0.25rem;
+        line-height: 1;
+        overflow: hidden;
+        max-width: 100vw;
     }
     
     .loading-text {
         font-size: 0.9rem;
+    }
+    
+    .loading-content {
+        padding: 10px;
+        max-width: 100vw;
+        overflow: hidden;
     }
 }
 
 /* Mobile phone styles */
 @media screen and (max-width: 480px) {
     .browser-frame {
-        padding: 60px 10px 15px 10px;
+        padding: 10px;
     }
     
     .browser-frame::before {
-        border-image-width: 60px 10px 15px 10px;
-        border-image-source: none;
-        border: 2px solid var(--phosphor-green);
-        border-radius: 10px;
+        display: none;
     }
     
     .ascii-art {
